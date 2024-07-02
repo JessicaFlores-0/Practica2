@@ -1,0 +1,80 @@
+#encabezado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 12%;
+    width: 100%;
+    background-color: green;
+    color: white;
+}
+#encabezado h1 {
+    display: inline;
+}
+
+
+#contenido {
+    position: absolute;
+    top: 12%;
+    left: -0%;
+    height: 80%;
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    overflow: auto;
+}
+
+#piePagina {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 7%;
+    width: 100%;
+    background-color: green;
+    color: black;
+    text-align: center;
+}
+
+
+.card {
+    width: 18rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    margin: 1rem;
+    padding: 1rem;
+}
+.card-img-top {
+    width: 100%;
+    border-radius: 0.25rem 0.25rem 0 0;
+}
+.card-body {
+    padding: 1rem;
+}
+.card-title {
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.card-text {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
